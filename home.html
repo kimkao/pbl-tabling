@@ -1,9 +1,118 @@
 <!DOCTYPE HTML>
 <head>
 	<title>home page for tabling</title>
+
+<!--Stylesheets-->
+<link href= "/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/css/_bootswatch.scss" rel="stylesheet" />
+<link href="/css/_variables.scss" rel="stylesheet" />
 </head>
 
 <body>
-	<h1>tabling</h1>
+	<h1 class ="col-md-8 col-md-offset-2 text-center">tabling</h1>
+
+	<div class="container">
+
+<!-- <div class="row">
+	<div class="col-md-2 text-center">
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Available</button>
+    </div>
+</div> -->
+
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+			<p>sign up for your tabling slot below. green means available slot, so you can click on drop down to sign up. red means unavailable. <br />things to watch out for: put borders to divide between columns <br /> questions? have dropdown or just click and modal shows up?<br /> make sure they can only sign up for one slot and they can't sign up for a red slot</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<div class="btn-toolbar" role="toolbar">
+
+		<div class="btn-group" style="margin: 0 15px">
+		  <a href="#" class="btn btn-success">10 - 11am</a>
+		  <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></a>
+		  <ul class="dropdown-menu">
+		    <li>
+		    	<!-- <a href="#">Sign up for this time slot</a> -->
+		    	<a href="#" data-toggle="modal" data-target="#myModal">Sign up for this slot</a>
+		    </li>
+  		</ul>
+		</div>
+
+		<div class="btn-group" style="margin: 0 15px">
+		  <a href="#" class="btn btn-danger">10 - 11am</a>
+		  <a href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></a>
+		  <ul class="dropdown-menu">
+		    <li>
+		    	<!-- <a href="#">Sign up for this time slot</a> -->
+		    	<a href="#" data-toggle="modal" data-target="#myModal">Sign up for this slot</a>
+		    </li>
+  		</ul>
+		</div>
+
+		<div class="btn-group" style="margin: 0 15px">
+		  <a href="#" class="btn btn-success">10 - 11am</a>
+		  <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></a>
+		  <ul class="dropdown-menu">
+		    <li>
+		    	<!-- <a href="#">Sign up for this time slot</a> -->
+		    	<a href="#" data-toggle="modal" data-target="#myModal">Sign up for this slot</a>
+		    </li>
+  		</ul>
+		</div>
+
+		<div class="btn-group" style="margin: 0 15px">
+		  <a href="#" class="btn btn-success">10 - 11am</a>
+		  <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></a>
+		  <ul class="dropdown-menu">
+		    <li>
+		    	<!-- <a href="#">Sign up for this time slot</a> -->
+		    	<a href="#" data-toggle="modal" data-target="#myModal">Sign up for this slot</a>
+		    </li>
+  		</ul>
+		</div>
+
+		<div class="btn-group" style="margin: 0 15px">
+		  <a href="#" class="btn btn-success">10 - 11am</a>
+		  <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></a>
+		  <ul class="dropdown-menu">
+		    <li>
+		    	<!-- <a href="#">Sign up for this time slot</a> -->
+		    	<a href="#" data-toggle="modal" data-target="#myModal">Sign up for this slot</a>
+		    </li>
+  		</ul>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--Modal-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h4 class="modal-title">Confirm your time slot</h4>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want Monday, 10am?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Scripts-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
 
 </body>
